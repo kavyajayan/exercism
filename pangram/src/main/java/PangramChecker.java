@@ -5,14 +5,13 @@ public class PangramChecker {
     public boolean isPangram(String input) {
     	boolean[] flag = new boolean[26];
   		int index = 0;  
-  		char[] tempArray = input.toCharArray();
     	for (int i = 0; i <input.length(); i++){  
-        	if ('A' <= tempArray[i] && tempArray[i] <= 'Z'){
-            	index = tempArray[i] - 'A'; 
+        	if ('A' <= input.charAt(i) && input.charAt(i) <= 'Z'){
+            	index = input.charAt(i) - 'A'; 
             	flag[index] = true; 
         	}
-  			else if('a' <= tempArray[i] && tempArray[i] <= 'z') {
-            	index = tempArray[i] - 'a'; 
+  			else if('a' <= input.charAt(i) && input.charAt(i) <= 'z') {
+            	index = input.charAt(i) - 'a'; 
         		flag[index] = true; 
         	}
     	} 

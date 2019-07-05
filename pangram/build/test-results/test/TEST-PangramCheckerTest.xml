@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PangramCheckerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-07-05T15:30:48" hostname="kavya" time="0.006">
+<testsuite name="PangramCheckerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-07-05T15:36:03" hostname="kavya" time="0.008">
   <properties/>
-  <testcase name="recognizesPerfectLowerCasePangram" classname="PangramCheckerTest" time="0.001"/>
+  <testcase name="recognizesPerfectLowerCasePangram" classname="PangramCheckerTest" time="0.002"/>
   <testcase name="pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram" classname="PangramCheckerTest" time="0.0"/>
   <testcase name="pangramWithNumbersIsRecognizedAsPangram" classname="PangramCheckerTest" time="0.001"/>
   <testcase name="phraseMissingCharacterXIsNotPangram" classname="PangramCheckerTest" time="0.0"/>
