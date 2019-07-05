@@ -9,9 +9,11 @@ class RaindropConverter {
         	flag=1;
         }
         if(number%5==0){
+        	sound+="Plang";
         	flag=1;
         }
         if(number%7==0){
+        	sound+="Plong";
         	flag=1;
         }
         if(flag==0)
